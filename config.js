@@ -67,17 +67,17 @@ global.SESSION_ID = process.env.SESSION_ID ||  "SUHAIL_07_54_05_16_ewogICJjcmVkc
 
 module.exports = {
 
-  menu: process.env.MENU || "2", /**  Available @MENU @Schemes 1: Aztec_Md, 2: A17_Md, 3: Suhail-Md Default ---------- If Not Choose then it Randomely Pic One Of Them Each time **/
+  menu: process.env.MENU || "", /**  Available @MENU @Schemes 1: Aztec_Md, 2: A17_Md, 3: Suhail-Md Default ---------- If Not Choose then it Randomely Pic One Of Them Each time **/
 
   HANDLERS: process.env.PREFIX  || ".",
   BRANCH  : process.env.BRANCH  || "main",
   VERSION : process.env.VERSION || "1.3.1",
   caption : process.env.CAPTION || "Art by Ashley" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴜʜᴀɪʟ²²¹-ᴍᴅ 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
  
-  author : process.env.PACK_AUTHER|| "Art by Ashley",
-  packname: process.env.PACK_NAME || "Art by Ashley",
-  botname : process.env.BOT_NAME  || "Ashley",
-  ownername:process.env.OWNER_NAME|| "Ashley",
+  author : process.env.PACK_AUTHER|| "Galaxy production",
+  packname: process.env.PACK_NAME || "Galaxy production",
+  botname : process.env.BOT_NAME  || "Galaxy bot",
+  ownername:process.env.OWNER_NAME|| "Phestus Galaxy",
 
 
   errorChat : process.env.ERROR_CHAT || "",
@@ -93,7 +93,7 @@ module.exports = {
   aitts_Voice_Id : process.env.AITTS_ID || "37",
   ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY  || "",
   WORKTYPE: process.env.WORKTYPE || process.env.MODE|| "public",
-  LANG: ( process.env.THEME ||  "Ms Beautiful"  ).toUpperCase(),
+  LANG: ( process.env.THEME ||  "Phestus Galaxy"  ).toUpperCase(),
 
 
 
