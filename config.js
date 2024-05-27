@@ -74,10 +74,10 @@ module.exports = {
   VERSION : process.env.VERSION || "1.3.1",
   caption : process.env.CAPTION || "Art by Ashley" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴜʜᴀɪʟ²²¹-ᴍᴅ 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
  
-  author : process.env.PACK_AUTHER|| "Galaxy production",
-  packname: process.env.PACK_NAME || "Galaxy production",
-  botname : process.env.BOT_NAME  || "Galaxy bot",
-  ownername:process.env.OWNER_NAME|| "Phestus Galaxy",
+  author : process.env.PACK_AUTHER|| "Whiz",
+  packname: process.env.PACK_NAME || "Whiz",
+  botname : process.env.BOT_NAME  || "Whiz",
+  ownername:process.env.OWNER_NAME|| "Whiz",
 
 
   errorChat : process.env.ERROR_CHAT || "",
@@ -93,7 +93,7 @@ module.exports = {
   aitts_Voice_Id : process.env.AITTS_ID || "37",
   ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY  || "",
   WORKTYPE: process.env.WORKTYPE || process.env.MODE|| "public",
-  LANG: ( process.env.THEME ||  "Phestus Galaxy"  ).toUpperCase(),
+  LANG: ( process.env.THEME ||  "Whiz"  ).toUpperCase(),
 
 
 
